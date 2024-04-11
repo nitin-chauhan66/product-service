@@ -14,7 +14,7 @@ import com.scaler.productservice.dto.ProductListResponseDTO;
 import com.scaler.productservice.dto.ProductRequestDTO;
 import com.scaler.productservice.dto.ProductResponseDTO;
 import com.scaler.productservice.exception.ProductNotFoundException;
-import com.scaler.productservice.utils.ProductUtils;;
+import com.scaler.productservice.utils.ProductUtils;
 
 @Service("fakeStoreProductService")
 public class FakeStoreProductServiceImpl implements ProductService {
